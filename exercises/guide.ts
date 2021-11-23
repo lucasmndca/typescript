@@ -6,7 +6,8 @@ const scripts: Array<string> = [
     'start-functions',
     'start-classes',
     'start-inheritance',
-    'start-modules'
+    'start-modules',
+    'start-promises',
 ]
 
 scripts.forEach(script => {
