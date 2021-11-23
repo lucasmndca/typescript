@@ -1,0 +1,31 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Contains typescript-related exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/guide.js",
+    "start-types": "npm run build && node dist/1-types/types.js",
+    "start-interfaces": "npm run build && node dist/2-interfaces/interfaces.js",
+    "start-functions": "npm run build && node dist/3-functions/functions.js",
+    "start-classes": "npm run build && node dist/4-classes/classes.js",
+    "start-inheritance": "npm run build && node dist/5-inheritance/inheritance.js",
+    "start-modules": "npm run build && node dist/6-modules/modules.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmndca/typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmndca/typescript/issues"
+  },
+  "homepage": "https://github.com/lucasmndca/typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
