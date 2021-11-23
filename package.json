@@ -12,7 +12,9 @@
     "start-functions": "npm run build && node dist/3-functions/functions.js",
     "start-classes": "npm run build && node dist/4-classes/classes.js",
     "start-inheritance": "npm run build && node dist/5-inheritance/inheritance.js",
-    "start-modules": "npm run build && node dist/6-modules/modules.js"
+    "start-modules": "npm run build && node dist/6-modules/modules.js",
+    "start-promises": "npm run build && node dist/7-promises/promises.js",
+    "start-async": "npm run build && node dist/8-async/async.js"
   },
   "repository": {
     "type": "git",
